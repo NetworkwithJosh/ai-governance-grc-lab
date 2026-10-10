@@ -99,7 +99,7 @@ This mirrors how governance programs are typically structured: high-level polici
 
 # Step-by-Step: How to Recreate the Project
 
-## Step 1 — Define the AI Governance Scope
+## Step 1 Define the AI Governance Scope
 
 Start by identifying the organization, the business processes in scope, and the AI-related regulatory or contractual drivers.
 
@@ -114,7 +114,7 @@ For this lab, the scope included:
 
 Before documenting risks, define what is considered an **AI system**. Automation alone is not necessarily AI. For example, a traditional rule-based IDS may be automated without using machine learning. An AI-enabled IDS/IPS may use machine learning, behavioral analytics, or anomaly detection to classify activity.
 
-## Step 2 — Build the AI Asset Inventory
+## Step 2 Build the AI Asset Inventory
 
 For each AI system, document:
 
@@ -136,7 +136,7 @@ Environment: Production
 Description: AI-enabled recruiting system used to record and analyze candidate interview responses and provide screening or evaluation outputs for hiring decisions.
 ```
 
-## Step 3 — Identify AI Risks
+## Step 3 Identify AI Risks
 
 For each AI system, identify a realistic failure mode or threat and connect it to a weakness and business impact.
 
@@ -165,7 +165,7 @@ Then assign:
 
 Avoid vague risks such as “AI failure” or “data breach.” The goal is to make the scenario actionable.
 
-## Step 4 — Score and Prioritize Risks
+## Step 4 Score and Prioritize Risks
 
 Use a simple likelihood × impact model if that is what your organization uses.
 
@@ -185,7 +185,7 @@ Risk Score: 16 – High
 Rationale: The support team receives hundreds of requests each day and relies on the AI chatbot. A prolonged outage could create a significant ticket backlog, delay customer support, disrupt business continuity, and affect a revenue-generating service.
 ```
 
-## Step 5 — Design Controls
+## Step 5 Design Controls
 
 A good control should be:
 
@@ -217,7 +217,7 @@ For each control, document:
 
 When possible, describe how the control would be tested.
 
-## Step 6 — Apply Human Oversight
+## Step 6 Apply Human Oversight
 
 For high-impact AI decisions, define where human review is required.
 
@@ -232,7 +232,7 @@ Example recruiting workflow:
 
 This turns “human in the loop” from a slogan into a testable control.
 
-## Step 7 — Protect Data Used by AI
+## Step 7 Protect Data Used by AI
 
 Apply least privilege and data-minimization principles.
 
@@ -247,7 +247,7 @@ Controls can include:
 
 The goal is to prevent AI systems from having unrestricted access to information they do not need.
 
-## Step 8 — Monitor AI Security and Performance
+## Step 8 Monitor AI Security and Performance
 
 AI-enabled security tools should also be governed.
 
@@ -263,7 +263,7 @@ Monitor for:
 
 Maintain logs that can support investigations and control testing.
 
-## Step 9 — Establish Resilience and Incident Response
+## Step 9 Establish Resilience and Incident Response
 
 AI-supported business processes should have fallback procedures.
 
@@ -274,7 +274,7 @@ Examples:
 - Include AI incidents in incident-response tabletop exercises.
 - Test scenarios such as data leakage, model failure, prompt injection, hallucinated high-impact output, and compromised integrations.
 
-## Step 10 — Create Governance Policies
+## Step 10 Create Governance Policies
 
 Group related controls under broader policies.
 
@@ -298,7 +298,7 @@ Each policy should have:
 - Exceptions process
 - Review cadence
 
-## Step 11 — Review the Program as a System
+## Step 11 Review the Program as a System
 
 The final step is to verify traceability:
 
